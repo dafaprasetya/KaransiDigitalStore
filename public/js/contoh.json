@@ -1,0 +1,33 @@
+
+{
+    "status_code": "201",
+    "status_message": "Transaksi sedang diproses",
+    "transaction_id": "c911691e-060a-4943-b268-31ed077e5962",
+    "order_id": "624642880",
+    "gross_amount": "15500.00",
+    "payment_type": "bank_transfer",
+    "transaction_time": "2022-11-29 22:18:45",
+    "transaction_status": "pending",
+    "va_numbers": [
+      {
+        "bank": "bca",
+        "va_number": "01967165291"
+      }
+    ],
+    "fraud_status": "accept",
+    "bca_va_number": "01967165291",
+    "pdf_url": "https://app.sandbox.midtrans.com/snap/v1/transactions/aa8ae801-9b8b-4968-bb39-ddd8797e0f37/pdf",
+    "finish_redirect_url": "http://example.com?order_id=624642880&status_code=201&transaction_status=pending"
+  }
+{
+    "status_code": "201",
+    "status_message": "Transaksi sedang diproses",
+    "transaction_id": "c054a31d-7f4f-459c-91a8-09e0cbf5e8a8",
+    "order_id": "55858115",
+    "gross_amount": "12500.00",
+    "payment_type": "qris",
+    "transaction_time": "2022-11-30 00:40:01",
+    "transaction_status": "pending",
+    "fraud_status": "accept",
+    "finish_redirect_url": "http://example.com?order_id=55858115&status_code=201&transaction_status=pending"
+}

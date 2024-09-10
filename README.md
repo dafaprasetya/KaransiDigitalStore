@@ -41,6 +41,7 @@ Ikuti langkah-langkah di bawah ini untuk menjalankan proyek secara lokal:
    cd repository
    ```
 2. **Install dependencies**
+
    BackEnd:
    ```bash
    composer install
@@ -50,7 +51,7 @@ Ikuti langkah-langkah di bawah ini untuk menjalankan proyek secara lokal:
    npm install
    npm run dev
    ```
-3. Konfigurasi environment
+4. Konfigurasi environment
 
    Salin file .env.example menjadi .env dan sesuaikan konfigurasi database, Midtrans, dan lainnya:
    ```bash
@@ -60,13 +61,13 @@ Ikuti langkah-langkah di bawah ini untuk menjalankan proyek secara lokal:
    ```bash
    php artisan key:generate
    ```
-4. Migrasi dan seeder database
+5. Migrasi dan seeder database
 
    Migrasikan dan isi database dengan data awal:
    ```bash
    php artisan migrate --seed
    ```
-5. Menjalankan server
+6. Menjalankan server
 
    Jalankan server Laravel:
    ```env
